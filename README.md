@@ -43,3 +43,15 @@ A secure **RESTful API** for managing job applications. Users can **register, lo
    ```sh
    git clone <repository-url>
    cd job-management-system
+   npm install
+
+2.Create a .env file inside the project root and add:
+
+   MONGO_URL=your_mongodb_connection_string
+   JWT_SECRET=your_secret_key
+   JWT_LIFETIME=1d
+
+3.Start server:
+   npm start
+
+Server will run on : http://localhost:5000
